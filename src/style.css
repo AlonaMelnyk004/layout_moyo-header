@@ -34,7 +34,7 @@ header {
 }
 
 nav {
-  margin-left: 0 auto;
+  margin-left:auto;
 }
 
 .nav__list {
@@ -50,7 +50,7 @@ nav {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 60px;
+  height: 64px;
   text-transform: uppercase;
 }
 
@@ -75,7 +75,7 @@ a {
 .nav__link.is-active::after {
   content: '';
   position: absolute;
-  bottom: -1;
+  bottom: -1px;
   left: 0;
   width: 100%;
   height: 4px;
@@ -85,5 +85,5 @@ a {
 
 .nav__link:hover {
   text-decoration: underline;
-  text-decoration-color: var(--moyo-blue);
+  text-decoration-color: color var(--moyo-blue);;
 }
