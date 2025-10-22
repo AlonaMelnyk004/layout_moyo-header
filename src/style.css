@@ -16,7 +16,7 @@ body {
   --moyo-blue: #00acdc;
 }
 
-header {
+.site__header {
   display: flex;
   align-items: center;
   background-color: #fff;
@@ -33,7 +33,7 @@ header {
   margin-left: 50px;
 }
 
-nav {
+.nav {
   margin-left:auto;
 }
 
@@ -52,6 +52,8 @@ nav {
   justify-content: center;
   height: 64px;
   text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
 }
 
 .nav__item {
@@ -62,10 +64,6 @@ nav {
   margin-left: 0;
 }
 
-a {
-  color: #000;
-  text-decoration: none;
-}
 
 .nav__link.is-active {
   color: var(--moyo-blue);
@@ -85,5 +83,5 @@ a {
 
 .nav__link:hover {
   text-decoration: underline;
-  text-decoration-color: color var(--moyo-blue);;
+  text-decoration-color: var(--moyo-blue);
 }
